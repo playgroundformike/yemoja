@@ -4,7 +4,7 @@ import time
 import os
 from datetime import datetime, timezone
 
-API_URL = os.environ.get("API_URL", "https://5un1vgmca6.execute-api.us-east-1.amazonaws.com")
+API_URL = os.environ.get("API_URL")
 NUM_VEHICLES = 15
 TICK_INTERVAL = 3  # seconds between updates
 
