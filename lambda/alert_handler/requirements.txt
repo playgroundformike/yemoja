@@ -1,0 +1,2 @@
+# boto3 and botocore are included in Lambda runtime
+# Add any additional dependencies here
